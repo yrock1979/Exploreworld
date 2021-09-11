@@ -1,0 +1,87 @@
+header {
+    background-color: rgb(6,39,66);
+    padding: 14px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 36px;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav>li>a {
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.explore {
+    /* 画像の読み込み */
+    background-image: url('../img/hill.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 80px;
+    text-align: center;
+}
+
+.guideline li {
+    text-align: center;
+    font-size: 40px;
+}
+
+#programming,#english {
+    width: 100%;
+}
+
+#programming>h2,
+#english>h2
+{
+    font-size: 40px;
+    text-align: center;
+    color: grey;
+    padding-top: 40px;
+}
+
+.contents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin: 20px auto;
+}
+
+.discription {
+    width: 50%;
+}
+
+.contents > img {
+    height: 150px;
+    margin: 0 20px;
+}
+
+footer {
+    background-color: rgb(6,39,66);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 100px;
+    font-size: 15px;
+}
+
+
